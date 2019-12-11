@@ -2,19 +2,16 @@
 % Please edit documentation in R/getDeltaLE.R
 \name{getDeltaLE}
 \alias{getDeltaLE}
-\title{Given a country from the gapminder dataset, return the increase in years of life expectancy between 1952 and 2007.}
+\title{Given a country, return the increase in years of life expectancy between 1952 and 2007.}
 \usage{
 getDeltaLE(gap_country)
 }
 \arguments{
-\item{x}{factor}
+\item{gap_country}{charachter}
 }
 \value{
-A vector of length 1
+numeric vector of lenght 1
 }
 \description{
-Given a country from the gapminder dataset, return the increase in years of life expectancy between 1952 and 2007.
-}
-\examples{
-getDeltaLE(France)
+Given a country, return the increase in years of life expectancy between 1952 and 2007.
 }
