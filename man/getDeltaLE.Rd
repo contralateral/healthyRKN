@@ -15,3 +15,6 @@ numeric vector of lenght 1
 \description{
 Given a country, return the increase in years of life expectancy between 1952 and 2007.
 }
+\examples{
+getDeltaLE(France)
+}

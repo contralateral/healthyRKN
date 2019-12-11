@@ -3,3 +3,4 @@
 export(fcount)
 export(getDeltaLE)
 export(testFun)
+importFrom(magrittr,"%>%")

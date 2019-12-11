@@ -15,5 +15,4 @@ Imports:
     forcats,
     gapminder,
     dplyr,
-    ggplot2,
-    glue
+    magrittr

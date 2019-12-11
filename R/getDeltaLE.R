@@ -1,4 +1,3 @@
-
 #' Given a country, return the increase in years of life expectancy between 1952 and 2007.
 #'
 #' @param gap_country charachter
@@ -6,7 +5,10 @@
 #' @return numeric vector of lenght 1
 #' @export
 #'
+#' @importFrom magrittr "%>%"
+#'
 #' @examples
+#' getDeltaLE(France)
 getDeltaLE <- function(gap_country){
 
   exp2007 <- gapminder::gapminder %>%
